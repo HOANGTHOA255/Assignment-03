@@ -1,0 +1,162 @@
+@media only screen and (max-width: 600px) {
+  section > .container {
+    width: 420px;
+    padding: 20px 0px;
+  }
+  body {
+    font-size: 16px;
+    letter-spacing: 1.2;
+  }
+  h1 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.6;
+  }
+  h2,
+  h3 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.1;
+  }
+
+  .avatarname {
+    display: none;
+  }
+  #nav-bar {
+    border: none;
+  }
+  #nav-bar .container {
+    flex-direction: column;
+  }
+  #nav-bar .container a {
+    display: block;
+    padding: 10px 30px;
+    border-left: none;
+    border-right: none;
+    text-align: start;
+  }
+  #about .container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  #personal-info {
+    padding: 0px 0px;
+  }
+  .mt-40 {
+    padding-left: 30px;
+  }
+  #target {
+    padding-left: 0px;
+  }
+
+  #job-info .container,
+  .certificate-title,
+  .project-title {
+    grid-template-columns: 1fr;
+    justify-items: start;
+  }
+  .experience,
+  .language,
+  .Education,
+  .experience,
+  .interests,
+  .skill,
+  .work {
+    width: 100%;
+    padding: 0px;
+  }
+  .experience p,
+  .language p,
+  .Education p,
+  .experience p,
+  .interests p,
+  .skill p,
+  .work p {
+    margin: 0px;
+    padding-bottom: 0px;
+  }
+
+  .language div,
+  .skill div {
+    padding-left: 52px;
+  }
+  .row {
+    padding-left: 0px;
+  }
+  .HTML-CSS,
+  .Javascript,
+  .NodeJS,
+  .Bootstrap,
+  .Fundamental,
+  .Intermediate,
+  .Intermediate2,
+  .Fundamental2,
+  .english,
+  .ielt,
+  .japanese,
+  .n3 {
+    width: 90px;
+  }
+  #job-info i {
+    justify-self: center;
+  }
+  #job-info h1 {
+    justify-self: center;
+  }
+
+  #job-info li {
+    padding-left: 0px;
+  }
+  #job-info ul {
+    padding-left: 36px;
+  }
+  #job-info li p {
+    padding-bottom: 4px;
+  }
+  h2 {
+    margin: 0;
+  }
+  .jop-info span {
+    margin-left: 20px;
+  }
+
+  /* phần chứng chỉ, giải thưởng */
+
+  .certificate-title {
+    border-bottom: none;
+  }
+  .certificate-content {
+    grid-template-columns: 1fr;
+    border-bottom: 1px solid orange;
+  }
+  .certificate-content p {
+    margin-bottom: 0px;
+  }
+  .certificate-container {
+    margin-left: 50px;
+  }
+  #certificatesmall {
+    border-right: none;
+  }
+  #certificate h3 {
+    margin-top: 20px;
+    padding-bottom: 0px;
+  }
+
+  /* phần dự án  */
+  #project {
+    padding: 0px 30px;
+  }
+
+  .project-content {
+    margin-bottom: 20px;
+  }
+  #project h3 {
+    margin-bottom: 0px;
+  }
+
+  /* phần footer */
+  #footer {
+    padding: 0px 12px;
+  }
+}
